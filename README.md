@@ -9,21 +9,19 @@ A machine learning-based stock price prediction system for the Hang Seng Tech In
 1. View Baseline Results
 Baseline model predictions are located at: optimal/prediction_dt/
 
-2. Train GBDT Model
-python GBDT.py
-
-3. Run Mixed Model
+2. Run Mixed Model
 python mix_model.py
 
-4. Execute Trading Strategy
+3. Execute Trading Strategy
 python prime_strategy.py
 
-5. Run the hole project
+4. Run the hole project
 python baseline.py
 python main.py
 
 ## Single Command Reproducibility
-python baseline.py && python main.py
+python baseline.py
+python main.py
 
 ## Installation
 
@@ -47,7 +45,7 @@ project-root/
 ├── output_files/                  # Output files
 ├── picture/                       # Generated charts and graphs
 ├── prediction/                    # prediction results
-├── preprocessed_data/             # preprocessed data
+├── HangSengTechIndex_data/             # preprocessed data
 ├── test_set/                      # test dataset
 ├── training_set/                  # training dataset
 └── __pycache__/                   # Python cache files
