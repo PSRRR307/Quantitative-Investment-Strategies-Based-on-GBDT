@@ -117,8 +117,9 @@ def run_strategy(predictions_file, test_data_file, initial_capital, transaction_
 
 
 if __name__ == "__main__":
-    predictions_file = 'daily_predictions.xlsx'
-    test_data_file = 'daily_test_data.xlsx'
+    predictions_file = "prediction\predictions.xlsx"
+    test_data_file = "test_set\daily.xlsx"
     initial_capital = 100000
     transaction_cost = 0.001
     run_strategy(predictions_file, test_data_file, initial_capital, transaction_cost)
+
