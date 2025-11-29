@@ -190,7 +190,7 @@ def gbdt_main(training_path, test_path, save_path,stock_name):
 
 # Run the main function
 if __name__ == "__main__":
-    training_path = "5min_train_data.xlsx"
-    test_path = "5min_test_data.xlsx"
-    save_path = "predictions.xlsx"
+    training_path = "training_set\daily.xlsx"
+    test_path = "test_set\daily.xlsx"
+    save_path = "prediction\predictions.xlsx"
     gbdt_main(training_path, test_path, save_path)
